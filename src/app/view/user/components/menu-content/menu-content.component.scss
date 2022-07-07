@@ -1,9 +1,41 @@
 mat-card {
-    width: 281px;
-    height: 361px;
+    width: 281px !important;
+    height: 361px !important;
+    font-family: poppins !important;
+
+    margin: 24px 30px !important;
 }
 
 .container {
-    width: auto;
-    margin: 80px 62px;
+    width: auto !important;
+    margin: 80px 62px !important;
+}
+
+mat-card-actions {
+    top: 5px !important;
+}
+
+p{
+    line-height: 5px !important;
+}
+
+mat-card-header {
+    height: 187px;
+}
+
+.badge {
+    background-color: #E5EEFB;
+    color: #0F5EDD;
+}
+
+.strong-blue{
+    color: #0F5EDD;
+}
+
+.icon-height {
+    height: 32px;
+}
+
+.grey {
+    color: #5F5F5F;
 }
