@@ -35,7 +35,7 @@ $ucars-theme: mat.define-light-theme((
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include mat.all-component-themes($ucars-theme);
-
+@import '../src/scss/variable.scss';
 /* You can add global styles to this file, and also import other style files */
 
 .my-custom-darker-style {
@@ -51,6 +51,8 @@ mat-toolbar { font-family: Poppins !important;}
   background-color: #232323;
   color: white;
 }
+.text-light-dark{color: #5F5F5F !important;}
+.text-primary{color: $primary !important;}
 
 /*example*/
 .button-row {padding: 10px;}
@@ -66,7 +68,9 @@ button{margin: 10px;}
 .mx-32{margin: 32px !important;}
 .mb-0{margin:0 !important;}
 .mb-8{margin-bottom: 8px !important;}
+.mb-12{margin-bottom: 12px !important;}
 .mb-16{margin-bottom: 16px !important;}
+.mb-18{margin-bottom: 18px !important;}
 .mb-24{margin-bottom: 24px !important;}
 .mb-32{margin-bottom: 32px !important;}
 .mt-0{margin-top: 0 !important;}
@@ -122,6 +126,11 @@ button{margin: 10px;}
 .font-14{font-size: 14px !important;}
 .font-12{font-size: 12px !important;}
 
+.font-weight-600{font-weight: 600 !important;}
+.font-weight-normal{font-weight: 400 !important;}
+
+ul li{list-style: none; text-decoration: none;}
+
 .d-flex {
   display: flex !important;
 }
@@ -136,6 +145,9 @@ button{margin: 10px;}
 }
 .justify-content-end {
   justify-content: end !important;
+}
+.justify-content-between {
+  justify-content: space-between !important;
 }
 .align-items-center {
   align-items: center !important;
@@ -172,3 +184,15 @@ button{margin: 10px;}
 }
 
 .bg-white{background-color: #ffff;}
+.nowrap{
+  white-space: nowrap;
+}
+.ucars-primary-button{
+  background-color: #EE1B24;
+  color: white;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-start, .mat-form-field-appearance-outline .mat-form-field-outline-end{
+  border-radius: 0;
+  border-right: 0;
+}
