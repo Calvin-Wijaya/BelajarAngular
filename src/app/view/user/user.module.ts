@@ -9,9 +9,10 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { HeadlineComponent } from './components/headline/headline.component';
 import { SearchBrandComponent } from './components/search-brand/search-brand.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { UcarsDefinitionComponent } from './components/ucars-definition/ucars-definition.component';
 
 @NgModule({
-  declarations: [UserComponent, NavInfoComponent, NavigationComponent, HeadlineComponent, SearchBrandComponent, FooterComponent],
+  declarations: [UserComponent, NavInfoComponent, NavigationComponent, HeadlineComponent, SearchBrandComponent, FooterComponent, UcarsDefinitionComponent],
   imports: [CommonModule, UserRoutingModule, MaterialModule],
 })
 export class UserModule {}
