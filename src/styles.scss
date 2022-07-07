@@ -52,6 +52,11 @@ mat-toolbar { font-family: Poppins !important;}
   color: white;
 }
 
+.color-red {
+  background-color: #EE1B24;
+  color: white;
+}
+
 /*example*/
 .button-row {padding: 10px;}
 button{margin: 10px;}
@@ -60,6 +65,7 @@ button{margin: 10px;}
 /* You can add global styles to this file, and also import other style files */
 .m-0{margin:0;}
 .p-0{padding: 0;}
+.my-10{margin: 10px 0 !important;}
 .mx-8{margin: 8px !important;}
 .mx-16{margin: 16px !important;}
 .mx-24{margin: 24px !important;}
@@ -95,8 +101,19 @@ button{margin: 10px;}
   padding-right: 60px !important;
 }
 
-.px-16{padding: 16px !important;}
-.px-24{padding: 24px !important;}
+.py-10{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.px-16{
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+.px-24{
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
 .px-32{padding: 32px !important;}
 .pb-8{padding-bottom: 8px !important;}
 .pb-16{padding-bottom: 16px !important;}
@@ -134,9 +151,15 @@ button{margin: 10px;}
 .justify-content-center {
   justify-content: center !important;
 }
+
 .justify-content-end {
   justify-content: end !important;
 }
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
 .align-items-center {
   align-items: center !important;
 }
@@ -172,3 +195,5 @@ button{margin: 10px;}
 }
 
 .bg-white{background-color: #ffff;}
+
+.row {flex-direction: row !important;}
