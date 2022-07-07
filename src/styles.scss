@@ -53,6 +53,8 @@ mat-toolbar { font-family: Poppins !important;}
 }
 .text-light-dark{color: #5F5F5F !important;}
 .text-primary{color: $primary !important;}
+.text-dark{color: $dark;}
+.bg-light-dark{background-color: $bg-light-dark;}
 
 /*example*/
 .button-row {padding: 10px;}
@@ -99,6 +101,16 @@ button{margin: 10px;}
   padding-right: 60px !important;
 }
 
+.px-90{
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+}
+
+.py-40{
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
 .px-16{padding: 16px !important;}
 .px-24{padding: 24px !important;}
 .px-32{padding: 32px !important;}
@@ -128,6 +140,7 @@ button{margin: 10px;}
 
 .font-weight-600{font-weight: 600 !important;}
 .font-weight-normal{font-weight: 400 !important;}
+.font-weight-bold{font-weight: 600 !important;}
 
 ul li{list-style: none; text-decoration: none;}
 
