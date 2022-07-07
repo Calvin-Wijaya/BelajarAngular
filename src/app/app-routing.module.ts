@@ -7,10 +7,15 @@ const routes: Routes = [
     loadChildren: () =>
       import('./view/user/user.module').then((m) => m.UserModule),
   },
+  {
+    path: '',
+    redirectTo: 'user',
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
