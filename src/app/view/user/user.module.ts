@@ -24,11 +24,8 @@ import { FlowInfoComponent } from './components/flow-info/flow-info.component';
     MenuContentComponent,
     FooterComponent,
     UcarsDefinitionComponent,
-<<<<<<< Updated upstream
-    UcarsQuestionsComponent
-=======
+    UcarsQuestionsComponent,
     FlowInfoComponent,
->>>>>>> Stashed changes
   ],
   imports: [CommonModule, UserRoutingModule, MaterialModule],
 })
