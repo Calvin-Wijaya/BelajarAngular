@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { UcarsDefinitionComponent } from './components/ucars-definition/ucars-definition.component';
 import { UcarsQuestionsComponent } from './components/ucars-questions/ucars-questions.component';
 import { MenuContentComponent } from './components/menu-content/menu-content.component';
+import { FlowInfoComponent } from './components/flow-info/flow-info.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,11 @@ import { MenuContentComponent } from './components/menu-content/menu-content.com
     MenuContentComponent,
     FooterComponent,
     UcarsDefinitionComponent,
+<<<<<<< Updated upstream
     UcarsQuestionsComponent
+=======
+    FlowInfoComponent,
+>>>>>>> Stashed changes
   ],
   imports: [CommonModule, UserRoutingModule, MaterialModule],
 })
