@@ -3,7 +3,7 @@ mat-card {
     height: 361px !important;
     font-family: poppins !important;
 
-    margin: 24px 30px !important;
+    margin: 24px 23px !important;
 }
 
 .container {
@@ -13,6 +13,7 @@ mat-card {
 
 mat-card-actions {
     top: 5px !important;
+    margin-left: 16px;
 }
 
 p{
@@ -38,4 +39,9 @@ mat-card-header {
 
 .grey {
     color: #5F5F5F;
+}
+
+.btn {
+    width: 194px !important;
+    height: 40px !important;
 }

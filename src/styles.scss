@@ -231,6 +231,10 @@ ul li{list-style: none; text-decoration: none;}
   white-space: nowrap;
 }
 
+.wrap {
+  flex-wrap: wrap !important;
+}
+
 .ucars-primary-button{
   background-color: #EE1B24;
   color: white;
@@ -241,3 +245,7 @@ ul li{list-style: none; text-decoration: none;}
   border-right: 0;
 }
 .col {flex-direction: column !important;}
+
+.btn-outline-danger{
+  color: #EE1B24 !important;
+}
