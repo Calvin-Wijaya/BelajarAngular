@@ -56,6 +56,11 @@ mat-toolbar { font-family: Poppins !important;}
 .text-dark{color: $dark;}
 .bg-light-dark{background-color: $bg-light-dark;}
 
+.btn-red {
+  background-color: #EE1B24;
+  color: white;
+}
+
 /*example*/
 .button-row {padding: 10px;}
 button{margin: 10px;}
@@ -64,6 +69,7 @@ button{margin: 10px;}
 /* You can add global styles to this file, and also import other style files */
 .m-0{margin:0;}
 .p-0{padding: 0 !important;}
+.my-10{margin: 10px 0 !important;}
 .mx-8{margin: 8px !important;}
 .mx-16{margin: 16px !important;}
 .mx-24{margin: 24px !important;}
@@ -102,6 +108,24 @@ button{margin: 10px;}
   padding-right: 60px !important;
 }
 
+.py-10{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.py-32{
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+.px-16{
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+.px-24{
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
 .px-90{
   padding-left: 90px !important;
   padding-right: 90px !important;
@@ -121,10 +145,14 @@ button{margin: 10px;}
 .px-24{padding: 24px !important;}
 .px-32{padding: 32px !important;}
 .pb-8{padding-bottom: 8px !important;}
+.pb-14{padding-bottom: 14px !important;}
 .pb-16{padding-bottom: 16px !important;}
 .pb-24{padding-bottom: 24px !important;}
 .pb-32{padding-bottom: 32px !important;}
 .pb-80{padding-bottom: 80px !important;}
+.pt-2{padding-top: 2px !important;}
+.pt-4{padding-top: 4px !important;}
+.pt-6{padding-top: 6px !important;}
 .pt-8{padding-top: 8px !important;}
 .pt-16{padding-top: 16px !important;}
 .pt-24{padding-top: 24px !important;}
@@ -139,6 +167,7 @@ button{margin: 10px;}
 .pr-24{padding-right: 24px !important;}
 .pr-32{padding-right: 32px !important;}
 
+.font-60{font-size: 60px !important;}
 .font-36{font-size: 36px !important;}
 .font-24{font-size: 24px !important;}
 .font-18{font-size: 18px !important;}
@@ -164,6 +193,7 @@ ul li{list-style: none; text-decoration: none;}
 .justify-content-center {
   justify-content: center !important;
 }
+
 .justify-content-end {
   justify-content: end !important;
 }
@@ -208,9 +238,17 @@ ul li{list-style: none; text-decoration: none;}
 }
 
 .bg-white{background-color: #ffff;}
+
+.row {flex-direction: row !important;}
+
 .nowrap{
   white-space: nowrap;
 }
+
+.wrap {
+  flex-wrap: wrap !important;
+}
+
 .ucars-primary-button{
   background-color: #EE1B24;
   color: white;
@@ -256,4 +294,9 @@ ul li{list-style: none; text-decoration: none;}
   .mat-form-field-ripple{
     height: 0 !important;
   }
+.col {flex-direction: column !important;}
+
+.btn-outline-danger{
+  color: #EE1B24 !important;
+}
 }

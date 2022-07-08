@@ -11,9 +11,20 @@ import { SearchBrandComponent } from './components/search-brand/search-brand.com
 import { FooterComponent } from './components/footer/footer.component';
 import { UcarsDefinitionComponent } from './components/ucars-definition/ucars-definition.component';
 import { UcarsQuestionsComponent } from './components/ucars-questions/ucars-questions.component';
+import { MenuContentComponent } from './components/menu-content/menu-content.component';
 
 @NgModule({
-  declarations: [UserComponent, NavInfoComponent, NavigationComponent, HeadlineComponent, SearchBrandComponent, FooterComponent, UcarsDefinitionComponent, UcarsQuestionsComponent],
+  declarations: [
+    UserComponent,
+    NavInfoComponent,
+    NavigationComponent,
+    HeadlineComponent,
+    SearchBrandComponent,
+    MenuContentComponent,
+    FooterComponent,
+    UcarsDefinitionComponent,
+    UcarsQuestionsComponent
+  ],
   imports: [CommonModule, UserRoutingModule, MaterialModule],
 })
 export class UserModule {}
